@@ -1,0 +1,46 @@
+.home{
+    display: inline;
+    background-color: #eee;
+    padding: 16px;
+}
+body{
+    margin: 0;
+}
+#index {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.header{
+
+    background-color:#eee;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.fot{
+    padding: 20px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(75, 73, 73);
+}
+#foods{
+    padding-top:10%;
+    justify-content: center;
+    width: 70%;
+    height: 460px;
+    border: 0px dotted black;
+    overflow: scroll;
+    padding-left:30% ;
+}
+#index ul{
+    list-style-type: none;
+}
+img{
+    width: 510px;
+    height: 470px;
+}

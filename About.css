@@ -1,0 +1,53 @@
+.about{
+    font-size: 17px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: beige;
+}
+body{
+    margin: 0;
+}
+
+img{
+    padding-left: 40px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+img:hover {
+   width: 315px;
+   height: 315px;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
+
+td{
+    padding: 10px;
+    
+}
+.home{
+    display: inline;
+    background-color: #eee;
+    padding: 16px;
+}
+.header{
+    background-color:#eee;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/*.retour{
+    background-color: rgb(149, 189, 250);
+    border: 2px;
+    padding: 12px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}*/
