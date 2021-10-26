@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Foods.css">
+    <link rel="stylesheet" href="contact.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
@@ -17,44 +17,53 @@
         </div>
     </header>
     <br>
-    <form action="">
+    <h2>Contactez-nous </h2>
+    <form method="GET" class="form">
         <div>
-            <label for="name">
-                fullname :<br>
-            </label>
-            <input type="text" id="name">
+            <p class="input-label">
+                fullname 
+            </p>
+            <input type="text" id="name" name="fullname" class="input-item" placeholder="Your name" required>
         </div>
         <div>
-            <label for="email">
-              Email :<br>
-            </label>
-            <input type="email" id="email">
+            <p class="input-label">
+            Email 
+            </p>
+            <input type="email" id="email" name="email" class="input-item" placeholder="Your Email" required>
         </div>
         <div>
-            <label for="tele">
-                Télephone :<br>
-            </label>
-            <input type="tel" id="tel">
+            <p class="input-label">
+                Telephone 
+            </p>
+            <input type="tel" id="tel" name="telephone" class="input-item" placeholder="Your Number phone" required>
         </div>
         <div>
-            <p>Gender : </p>
+            <p class="input-label">Gender : </p>
             <span>
-            <input type="checkbox" name="male" id="male">
-             <label for="male">
-                Male 
-             </label>             
-                <input type="checkbox" name="female" id="female">
+            <input type="radio" name="male" id="male" value="Male">
+             <label for="male"> Male </label>             
+                <input type="radio" name="female" id="female" value="Female">
                 <label for="female">
-                    Female <br>
+                    Female 
                  </label>
             </span>
         </div>
         <div>
-            <p>Your Message : </p>
-            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <p class="input-label">Your Message : </p>
+            <textarea name="msg" id="msg" cols="30" rows="5"  class="input-item" placeholder="Your Message ... "></textarea>
         </div>
-       <input type="submit" value="Send">
+        <span>
+       <input class="button" type="submit" value="Send">
+    </span>
+    <span>
+        <input class="but" type="reset" value="Reset">
+    </span>
     </form>
     
 </body>
+<br><br><br>
+<footer class="fot">
+    <span>Abdeslam_BOULGOU 2020</span><br>
+    <span>boulgouslam@gmail.com</span>
+</footer>
 </html>
