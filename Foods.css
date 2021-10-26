@@ -20,6 +20,19 @@ body{
     padding-top: 20px;
     cursor: pointer;
 }
+.social-icons{
+    width: 30px;
+    height: 27px;
+    padding-left: 300px;
+    cursor: pointer;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.social-icons:hover{
+    height:34px ;
+}
+
 .header{
 
     background-color:#eee;
@@ -34,6 +47,7 @@ body{
     font-size: 18px;
     font-weight: bolder;
     background-color: rgb(75, 73, 73);
+    margin: 0;
 }
 #foods{
     padding-top:10%;

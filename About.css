@@ -7,17 +7,34 @@
 body{
     margin: 0;
 }
-
-img{
+.vid{
+    width: 400px;
+    height: 250px;
+    margin-left: 460px;
+}
+.image{
     padding-left: 40px;
     width: 300px;
     height: 300px;
     margin: 5px;
+    transition: border-radius;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    
 }
 
-img:hover {
+.image:hover {
    width: 315px;
    height: 315px;
+   transform: scaleX(1);
+   border-radius: 80px;
+
+  
+}
+.social-icons{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 .fot{
     padding: 20px;
@@ -53,10 +70,3 @@ td{
     font-weight: bolder;
     font-size: 20px;
 }
-/*.retour{
-    background-color: rgb(149, 189, 250);
-    border: 2px;
-    padding: 12px;
-    letter-spacing: 1px;
-    border-radius: 20px;
-}*/
