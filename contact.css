@@ -9,6 +9,26 @@
     display: inline;
     background-color: #eee;
     padding: 16px;
+    text-decoration: none;
+    float: right;
+    position: relative;
+    top: -8px;
+}
+.home:link{
+  color: rgb(10, 10, 10);
+  font-size: 24px;
+}
+.home:visited{
+  color: rgb(44, 43, 43);
+  font-size: 24px;
+}
+.home:hover{
+  color: rgb(48, 2, 2);
+  font-size: 26px;
+  font-weight: bolder;
+}
+.home:active{
+  color: rgb(3, 236, 15);
 }
 body{
     margin: 0;
@@ -16,8 +36,9 @@ body{
 .social-icons{
   width: 30px;
   height: 30px;
-  padding-left: 300px;
+  padding-left: 20px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 .input-item{
     width: 100%;
@@ -123,3 +144,63 @@ h2{
     opacity: 1;
     right: 0;
   }
+  .label{
+    background-color: rgb(22, 22, 240);
+    color: snow;
+    width: 100px;
+    padding: 5px 5px;
+}
+.label:hover{
+  color: rgb(6, 21, 230);
+  background-color:rgb(192, 250, 247) ;
+}
+.linkedin:hover{
+  color: rgb(71, 74, 236);
+  background-color: rgb(149, 225, 248);
+}
+.git:hover{
+  color: rgb(223, 139, 30);
+  background-color: rgb(252, 252, 157);
+}
+.linkedin{
+       background-color: rgb(85, 83, 236);
+       color: rgb(216, 207, 192);
+       width: 100px;
+       padding: 5px 5px;
+}
+.git{
+    background-color: rgb(29, 29, 29);
+    color: rgb(177, 179, 180);
+    width: 100px;
+    padding: 5px 5px;
+}
+button{
+  color: snow;
+  border: none;
+  cursor: pointer;
+}
+#logo{
+  color:rgb(19, 105, 235);
+  font-size: 40px;
+  letter-spacing: -1px;
+  font-weight: bolder;
+  font-family: 'Italianno', cursive;
+  position: relative;
+  right: 8px;
+  animation-name: logo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes logo {
+  0%{
+      color: rgb(253, 2, 2);
+      position: relative;
+      right: -5px;
+  }
+  100%{
+      color:rgb(19, 105, 235);
+      position: relative;
+      right: 8px;
+  }
+}
