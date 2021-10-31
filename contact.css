@@ -1,9 +1,10 @@
 .header{
 
     background-color:#eee;
-    padding: 20px;
+    padding: 15px;
     font-weight: bolder;
     font-size: 20px;
+    box-shadow: 0px 2px 5px gray;
 }
 .home{
     display: inline;
@@ -49,6 +50,12 @@ body{
     color: rgb(141, 6, 6);
 
 }
+.input-item:focus{
+  background-color: rgb(188, 197, 201) ;
+}
+.input-item:focus:required{
+  background-color: rgb(253, 156, 165);
+}
 .button {
     display: inline-block;
     border-radius: 4px;
@@ -76,6 +83,8 @@ body{
   
   .button:hover{
     padding-right: 20px;
+    background-color: #f8825e ;
+    color: #f4511e;
   }
   
   .button:hover :after {
@@ -138,6 +147,8 @@ h2{
   
   .but:hover{
     padding-left: 20px;
+    background-color:#5983f7 ;
+    color: #012996;
   }
   
   .but:hover :after {
